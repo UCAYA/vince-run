@@ -8,6 +8,13 @@ title: Bulle by Vince
 
 <img src="../assets/img/header-bulle.png" srcset="../assets/img/header-bulle@2x.png 2x, ../assets/img/header-bulle@3x.png 3x" class="header_bulle" />
 
+<p style="
+  margin-top: -80px;
+  font-family: serif;
+  font-style: italic;
+  color: #787778;
+  font-weight: lighter;">n.f. Petite quantité d’air toujours à disposition
+<br/>lorsque vous en avez besoin.</p>
 </header>
 
 <section id="features">

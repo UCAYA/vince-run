@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
 
 $font: "Lato", sans-serif;
 
@@ -17,7 +17,7 @@ body
 	box-sizing: border-box;
     color: $text-color;
 	font-family: $font;
-	font-weight: 400;
+	font-weight: 300;
 	margin: 0;
 	padding: 0;
 }
@@ -223,17 +223,17 @@ footer
     width: 100%;
     align-items: flex-end;
     justify-content: space-between;
-	
+
 	div
 	{
 		flex: 1;
         font-size: 0.75em;
 	}
-	
+
 	#copyright
 	{
 		text-align: left;
-
+		opacity: .5
         a
         {
             display: block;
@@ -241,7 +241,7 @@ footer
         }
 
 	}
-	
+
 	#author
 	{
 		text-align: center;
@@ -251,14 +251,17 @@ footer
             display: block;
             margin-top: 4px;
         }
-
+				strong {
+					font-weight: 100;
+				}
 	}
-	
+
 	#footer-note
 	{
 		text-align: right;
+		opacity: .5
 	}
-	
+
 }
 
 #vince-content
@@ -267,12 +270,12 @@ footer
     display: flex;
     flex: 1;
     margin: 56px 0;
-	padding: 0;
+		padding: 0;
 }
 
 $bulle-content-max-width: 820px;
 
-#bulle-presentation 
+#bulle-presentation
 {
 	background: $bulle-background;
     display: block;
@@ -284,7 +287,7 @@ $bulle-content-max-width: 820px;
         max-width: $bulle-content-max-width;
         padding-bottom: 90px;
 
-        .item 
+        .item
         {
             align-items: center;
             display: flex;
@@ -299,6 +302,7 @@ $bulle-content-max-width: 820px;
                 h2
                 {
                     text-transform: uppercase;
+										font-weight: 100;
                 }
 
                 .quote
@@ -344,7 +348,7 @@ $bulle-content-max-width: 820px;
 
 }
 
-#vince-bulle 
+#vince-bulle
 {
     padding: 50px 24px;
     text-align: center;
@@ -352,7 +356,6 @@ $bulle-content-max-width: 820px;
     h2, h3
     {
         font-size: 1.5em;
-        font-weight: normal;
     }
 
     h2
@@ -375,7 +378,7 @@ $bulle-content-max-width: 820px;
 @media screen and (max-width: 1024px)
 {
 
-    #bulle-presentation 
+    #bulle-presentation
     {
 
         #features
@@ -383,9 +386,9 @@ $bulle-content-max-width: 820px;
             margin: 0 24px;
             padding-bottom: 32px;
 
-            .item 
+            .item
             {
-                
+
                 > img
                 {
                     height: 50%;
