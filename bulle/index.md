@@ -1,5 +1,5 @@
 ---
-title: bulle
+title: Bulle by Vince
 ---
 
 <article id="bulle-presentation">
@@ -14,10 +14,10 @@ title: bulle
 
 <div class="item">
 
-<img src="../assets/img/bulle-connected.png" srcset="../assets/img/bulle-connected@2x.png 2x, ../assets/img/bulle-connected@3x.png 3x" />
+<img src="../assets/img/bulle-connected.png" srcset="../assets/img/bulle-connected@2x.png 2x, ../assets/img/bulle-connected@3x.png 3x" height="256" />
 
 <div class="infos">
-    
+
 <h2>UN VÉRITABLE OBJET CONNECTÉ</h2>
 
 <p>Fini le temps des « Chacun dans sa bulle » ! Rassemblez vos amis/collègues, saisissez votre Bulle, et créez un nouveau réseau social IRL.</p>
@@ -36,10 +36,10 @@ title: bulle
 
 <div class="item">
 
-<img src="../assets/img/bulle-buzz.png" srcset="../assets/img/bulle-buzz@2x.png 2x, ../assets/img/bulle-buzz@3x.png 3x" />
+<img src="../assets/img/bulle-buzz.png" srcset="../assets/img/bulle-buzz@2x.png 2x, ../assets/img/bulle-buzz@3x.png 3x" height="206" />
 
 <div class="infos">
-    
+
 <h2>DES BULLES QUI BUZZENT</h2>
 
 <p>Une réunion qui s’éternise ? Un powerpoint qui devient gênant ? Il est temps de prendre les choses en main, et de Buller pour vous faire entendre !</p>
@@ -58,10 +58,10 @@ title: bulle
 
 <div class="item">
 
-<img src="../assets/img/bulle-communication.png" srcset="../assets/img/bulle-communication@2x.png 2x, ../assets/img/bulle-communication@3x.png 3x" />
+<img src="../assets/img/bulle-communication.png" srcset="../assets/img/bulle-communication@2x.png 2x, ../assets/img/bulle-communication@3x.png 3x" height="296" />
 
 <div class="infos">
-    
+
 <h2>Bullez, Communiquez !</h2>
 
 <p>Décrétée meilleure solution de communication alternative par nos experts depuis les signaux de fumées amérindiens, BULLE vous offre l’opportunité de créer votre propre langage codé ! Une bulle : Un café, Deux bulles : Un meeting ? À vous de jouer !</p>
@@ -81,3 +81,22 @@ title: bulle
 </section>
 
 </article>
+<section id="vince-bulle">
+<h2>
+  Prêt à Buller ? <br/>
+  Mettez le temps de votre coté
+</h2>
+<img alt="" src="../assets/vectors/logo-vince.svg" />
+<h3>Bientôt disponible</h3>
+<a href="{{ '/' | relative_url }}" class="button">Découvrir</a>
+</section>
+<footer>
+<div id="copyright">&copy; 2017 Bulle by Vince</div>
+<div id="author">
+<strong>Powered by</strong>
+<a href="http://ucaya.com" title="21 3 1 25 1" target="_blank">
+<img alt="" src="{{ '/assets/vectors/logo-ucaya.svg' | relative_url }}" />
+</a>
+</div>
+<div id="footer-note"></div>
+</footer>
