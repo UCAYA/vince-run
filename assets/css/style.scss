@@ -281,6 +281,12 @@ $bulle-content-max-width: 820px;
     display: block;
     width: 100%;
 
+		header {
+			img {
+				max-width: 100%;
+			}
+		}
+
     #features
     {
         margin: auto;
@@ -391,7 +397,8 @@ $bulle-content-max-width: 820px;
 
                 > img
                 {
-                    height: 50%;
+                    height: 100px;
+										width: 100px;
                 }
 
                 .infos
