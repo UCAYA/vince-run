@@ -285,6 +285,13 @@ $bulle-content-max-width: 820px;
 			img {
 				max-width: 100%;
 			}
+			p {
+				margin-top: -80px;
+			  font-family: serif;
+			  font-style: italic;
+			  color: #787778;
+			  font-weight: lighter;
+			}
 		}
 
     #features
@@ -386,6 +393,11 @@ $bulle-content-max-width: 820px;
 
     #bulle-presentation
     {
+			header {
+				p {
+					margin-top: -64px;
+				}
+			}
 
         #features
         {

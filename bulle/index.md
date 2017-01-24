@@ -8,12 +8,7 @@ title: Bulle by Vince
 
 <img src="../assets/img/header-bulle.png" srcset="../assets/img/header-bulle@2x.png 2x, ../assets/img/header-bulle@3x.png 3x" class="header_bulle" />
 
-<p style="
-  margin-top: -80px;
-  font-family: serif;
-  font-style: italic;
-  color: #787778;
-  font-weight: lighter;">n.f. Petite quantité d’air toujours à disposition
+<p>n.f. Petite quantité d’air toujours à disposition
 <br/>lorsque vous en avez besoin.</p>
 </header>
 
@@ -71,7 +66,7 @@ title: Bulle by Vince
 
 <h2>Bullez, Communiquez !</h2>
 
-<p>Décrétée meilleure solution de communication alternative par nos experts depuis les signaux de fumées amérindiens, BULLE vous offre l’opportunité de créer votre propre langage codé ! Une bulle : Un café, Deux bulles : Un meeting ? À vous de jouer !</p>
+<p>Décrétée meilleure solution de communication alternative par nos experts depuis les signaux de fumées amérindiens, Bulle vous offre l’opportunité de créer votre propre langage codé ! Une bulle : un café, deux bulles : un meeting ? À vous de jouer !</p>
 
 <div class="quote">
 
@@ -98,7 +93,7 @@ title: Bulle by Vince
 <a href="{{ '/' | relative_url }}" class="button">Découvrir</a>
 </section>
 <footer>
-<div id="copyright">&copy; 2017 Bulle by Vince</div>
+<div id="copyright">&copy; 2017 Vince</div>
 <div id="author">
 <strong>Powered by</strong>
 <a href="http://ucaya.com" title="21 3 1 25 1" target="_blank">
