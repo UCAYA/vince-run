@@ -15,9 +15,9 @@
   </head>
   <body>
     <div id="wrap">
-      
+
       {{ content }}
-    
+
     </div>
 
     <div id="confirmation-message">
@@ -28,6 +28,7 @@
 
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.2/fetch.min.js"></script>
     <script src="{{ '/assets/js/vince-landing.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
   {% if site.google_analytics %}
