@@ -1,5 +1,5 @@
 <section id="vince-content">
-        
+
 <div id="page-content">
 
 <img alt="" src="assets/vectors/logo-vince.svg" />
@@ -20,13 +20,13 @@ Intégrez cette nouvelle recrue.
 
 <h3>Disponible* dans 73 jours</h3>
 
-<p>En attendant, restons en contact :</p>
+<p>En attendant restons en contact,</p>
 
 <form id="contact-form">
 
-<input type="email" id="email-input" placeholder="Votre e-mail" />
+<input type="email" id="email-input" placeholder="Me prevenir lorsque c'est disponible" />
 
-<button id="contact-submit" disabled="disabled">Say hello !</button>
+<button id="contact-submit" disabled="disabled">M'ajouter à la liste</button>
 
 </form>
 
