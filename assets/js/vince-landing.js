@@ -63,7 +63,7 @@ if($contactForm != null) {
       				"text": "Un utilisateur s'est ajouté à la waitinglist",
       				"attachments": [{
       								"title": $emailInput.value,
-                      "text": "Infos"
+                      "text": "Infos",
                       "fields": [
                         {
                             "title": "IP",
@@ -122,7 +122,7 @@ UserInfo.getInfo(function(data) {
       "text": "Un utilisateur vient d'arriver",
       "attachments": [{
               "title": "",
-              "text": "Infos"
+              "text": "Infos",
               "fields": [
                 {
                     "title": "IP",
