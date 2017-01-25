@@ -18,7 +18,7 @@ Intégrez cette nouvelle recrue.
 
 </div>
 
-<h3>Disponible quand les hirondelles reviennent*</h3>
+<h3>Disponible au printemps 2017*</h3>
 
 <p>En attendant restons en contact,</p>
 
