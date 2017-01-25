@@ -1,4 +1,4 @@
-var api = {
+var Api = {
 
   slackIt: function(slackWebhookUrl, payload) {
 		return fetch(slackWebhookUrl,
