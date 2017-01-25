@@ -62,8 +62,7 @@ if($contactForm != null) {
             var payload = {
       				"text": "Un utilisateur s'est ajouté à la waitinglist",
       				"attachments": [{
-      								"title": $emailInput.value,
-                      "text": "Infos",
+      								"text": $emailInput.value,
                       "fields": [
                         {
                             "title": "IP",
