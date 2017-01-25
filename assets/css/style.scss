@@ -273,7 +273,7 @@ footer
 		padding: 0;
 }
 
-$bulle-content-max-width: 820px;
+$bulle-content-max-width: 900px;
 
 #bulle-presentation
 {
@@ -298,7 +298,7 @@ $bulle-content-max-width: 820px;
     {
         margin: auto;
         max-width: $bulle-content-max-width;
-        padding-bottom: 90px;
+        padding: 56px 0 90px;
 
         .item
         {
@@ -310,12 +310,18 @@ $bulle-content-max-width: 820px;
 
             .infos
             {
+                display: block;
                 margin: 0 50px;
+                position: relative;
 
                 h2
                 {
                     text-transform: uppercase;
-										font-weight: 100;
+                    font-size: 1.5em;
+                    font-weight: 100;
+                    margin: 0;
+                    padding: 10px 0;
+                    position: relative;
                 }
 
                 .quote
@@ -338,13 +344,34 @@ $bulle-content-max-width: 820px;
 
             }
 
+            &:first-child 
+            {
+                
+                > img
+                {
+                    margin: 0 50px 0 42px;
+                }
+
+                .infos
+                {
+                    margin: -20px 0 0 0;
+                }
+
+            }
+
             &:nth-child(2) {
                 flex-direction: row-reverse;
+                padding: 56px 0 16px;
+
+                > img
+                {
+                    margin: 0px 164px 0 75px;
+                }
 
                 .infos
                 {
                     text-align: right;
-                    margin: 0 75px;
+                    margin: -22px 0 0 0;
 
                     .quote
                     {
@@ -353,6 +380,10 @@ $bulle-content-max-width: 820px;
 
                 }
 
+            }
+
+            &:nth-child(3) {
+                padding: 24px 0;
             }
 
         }
@@ -386,6 +417,12 @@ $bulle-content-max-width: 820px;
         margin: 32px 0;
     }
 
+    .button
+    {
+        font-size: 0.85em;
+        padding: 6px 16px;
+    }
+
 }
 
 @media screen and (max-width: 1024px)
@@ -410,7 +447,7 @@ $bulle-content-max-width: 820px;
                 > img
                 {
                     height: 100px;
-										width: 100px;
+                    width: 100px;
                 }
 
                 .infos
@@ -420,11 +457,89 @@ $bulle-content-max-width: 820px;
 
                 &:nth-child(2) {
 
+                    > img
+                    {
+                        margin: 0px 100px 0 50px;
+                    }
+
                     .infos
                     {
                         margin: 0 32px 0 0;
                     }
 
+                }
+
+                &:nth-child(3) {
+
+                    .infos
+                    {
+                        margin: 0 0 0 50px;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 600px)
+{
+
+    @mixin small-feature-style() {
+
+        padding: 32px 0 0;
+        display: block;
+        text-align: center;
+
+        > img
+        {
+            display: block;
+            height: inherit;
+            margin: 0 auto;
+            width: inherit;
+        }
+
+        .infos
+        {
+            margin: 32px;
+            text-align: center;
+
+            .quote
+            {
+                justify-content: center;
+            }
+
+        }
+
+    }
+
+    #bulle-presentation
+    {
+			
+        #features
+        {
+            
+            .item
+            {
+                @include small-feature-style();
+
+                &:first-child
+                {
+                    @include small-feature-style();
+                }
+
+                &:nth-child(2)
+                {
+                    @include small-feature-style();
+                }
+
+                &:nth-child(3)
+                {
+                    @include small-feature-style();
                 }
 
             }
