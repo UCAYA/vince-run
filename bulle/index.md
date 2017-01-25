@@ -2,6 +2,8 @@
 title: Bulle by Vince
 ---
 
+<div id="particles-js"></div>
+
 <article id="bulle-presentation">
 
 <header>
@@ -22,7 +24,7 @@ title: Bulle by Vince
 
 <h2>UN VÉRITABLE OBJET CONNECTÉ</h2>
 
-<p>Fini le temps des « Chacun dans sa bulle » ! </p> 
+<p>Fini le temps des « Chacun dans sa bulle » ! </p>
 <p>Rassemblez vos amis/collègues, saisissez votre Bulle, et créez un nouveau réseau social IRL.</p>
 
 <div class="quote">
@@ -45,7 +47,7 @@ title: Bulle by Vince
 
 <h2>DES BULLES QUI BUZZENT</h2>
 
-<p>Une réunion qui s’éternise ? Un powerpoint qui devient gênant ? </p> 
+<p>Une réunion qui s’éternise ? Un powerpoint qui devient gênant ? </p>
 <p>Il est temps de prendre les choses en main, et de Buller pour vous faire entendre !</p>
 
 <div class="quote">

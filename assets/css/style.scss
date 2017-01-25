@@ -344,9 +344,9 @@ $bulle-content-max-width: 900px;
 
             }
 
-            &:first-child 
+            &:first-child
             {
-                
+
                 > img
                 {
                     margin: 0 50px 0 42px;
@@ -513,7 +513,7 @@ $bulle-content-max-width: 900px;
 
     #bulle-presentation
     {
-			
+
         #features
         {
 
@@ -575,10 +575,10 @@ $bulle-content-max-width: 900px;
 
     #bulle-presentation
     {
-			
+
         #features
         {
-            
+
             .item
             {
                 @include small-feature-style();
@@ -604,4 +604,16 @@ $bulle-content-max-width: 900px;
 
     }
 
+}
+
+#particles-js {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 10;
 }
