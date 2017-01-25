@@ -617,3 +617,17 @@ $bulle-content-max-width: 900px;
   background-position: 50% 50%;
   z-index: 10;
 }
+
+#bulle-presentation {
+	background: none;
+}
+
+#features {
+	position: relative;
+	z-index: 20;
+}
+
+#vince-bulle {
+  width: 100%;
+  background: linear-gradient(to top, #51002f, #8f3662);
+}
