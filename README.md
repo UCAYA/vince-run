@@ -24,9 +24,9 @@ Intégrez cette nouvelle recrue.
 
 <form id="contact-form">
 
-<input type="email" id="email-input" placeholder="Me prevenir lorsque c'est disponible" />
+<input type="email" id="email-input" placeholder="Email" />
 
-<button id="contact-submit" disabled="disabled">M'ajouter à la liste</button>
+<button id="contact-submit" disabled="disabled">Me prevenir lorsque c'est disponible</button>
 
 </form>
 
