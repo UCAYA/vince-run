@@ -30,17 +30,17 @@ if($contactForm != null) {
     $contactForm.onsubmit = function(eventArgs) {
         eventArgs.preventDefault();
 
-        fetch("https://getform.org/f/0b925986-3bcb-47ce-a7d2-1547c6e4020b",
-                  { method: 'post',
-                    body:  encodeURIComponent("email") + "=" + encodeURIComponent($emailInput.value)
-                  }).then(function(response) {
-          //return response.json();
-          return null;
-        });
-        // var request = new XMLHttpRequest();
-        // request.open('POST', 'https://getform.org/f/0b925986-3bcb-47ce-a7d2-1547c6e4020b', true);
-        // request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-        // request.send("email="+$emailInput.value});
+        // fetch("https://getform.org/f/0b925986-3bcb-47ce-a7d2-1547c6e4020b",
+        //           { method: 'post',
+        //             body:  encodeURIComponent("email") + "=" + encodeURIComponent($emailInput.value)
+        //           }).then(function(response) {
+        //   //return response.json();
+        //   return null;
+        // });
+        var request = new XMLHttpRequest();
+        request.open('POST', 'https://getform.org/f/0b925986-3bcb-47ce-a7d2-1547c6e4020b', true);
+        request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+        request.send(encodeURIComponent("email") + "=" + encodeURIComponent($emailInput.value));
 
         displayConfirmationMessage("Vous êtes sur la liste !", "À très vite*");
         $emailInput.value = "";
