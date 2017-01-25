@@ -32,7 +32,7 @@ if($contactForm != null) {
 
         fetch("https://getform.org/f/0b925986-3bcb-47ce-a7d2-1547c6e4020b",
                   { method: 'post',
-                    body: "email="+$emailInput.value
+                    body:  encodeURIComponent("email") + "=" + encodeURIComponent($emailInput.value)
                   }).then(function(response) {
           //return response.json();
           return null;

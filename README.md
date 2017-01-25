@@ -26,7 +26,7 @@ Intégrez cette nouvelle recrue.
 
 <input type="email" id="email-input" placeholder="Email" />
 
-<button id="contact-submit" disabled="disabled">Me prevenir lorsque c'est disponible</button>
+<button id="contact-submit" disabled="disabled">Me prevenir !</button>
 
 </form>
 
