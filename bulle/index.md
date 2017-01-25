@@ -22,7 +22,9 @@ title: Bulle by Vince
 
 <h2>UN VÉRITABLE OBJET CONNECTÉ</h2>
 
-<p>Fini le temps des « Chacun dans sa bulle » ! Rassemblez vos amis/collègues, saisissez votre Bulle, et créez un nouveau réseau social IRL.</p>
+<p>Fini le temps des « Chacun dans sa bulle » ! <br/> 
+Rassemblez vos amis/collègues, saisissez votre Bulle, <br/>
+et créez un nouveau réseau social IRL.</p>
 
 <div class="quote">
 
@@ -66,7 +68,7 @@ title: Bulle by Vince
 
 <h2>Bullez, Communiquez !</h2>
 
-<p>Décrétée meilleure solution de communication alternative par nos experts depuis les signaux de fumées amérindiens, Bulle vous offre l’opportunité de créer votre propre langage codé ! Une bulle : un café, deux bulles : un meeting ? À vous de jouer !</p>
+<p>Décrétée meilleure solution de communication alternative par nos experts depuis les signaux de fumée amérindiens, Bulle vous offre l’opportunité de créer votre propre langage codé ! Une bulle : un café, deux bulles : un meeting ? À vous de jouer !</p>
 
 <div class="quote">
 
@@ -86,7 +88,7 @@ title: Bulle by Vince
 <section id="vince-bulle">
 <h2>
   Prêt à Buller ? <br/>
-  Mettez le temps de votre coté
+  Mettez le temps de votre côté
 </h2>
 <img alt="" src="../assets/vectors/logo-vince.svg" />
 <h3>Bientôt disponible</h3>
