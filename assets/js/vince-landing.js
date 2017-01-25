@@ -51,10 +51,11 @@ if($contactForm != null) {
         //   //return response.json();
         //   return null;
         // });
+        var email = $emailInput.value
         var request = new XMLHttpRequest();
         request.open('POST', 'https://getform.org/f/0b925986-3bcb-47ce-a7d2-1547c6e4020b', true);
         request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-        request.send(encodeURIComponent("email") + "=" + encodeURIComponent($emailInput.value));
+        request.send(encodeURIComponent("email") + "=" + encodeURIComponent(email));
 
         UserInfo.getInfo(function(data) {
     			// the "data" object contains the info
@@ -62,7 +63,7 @@ if($contactForm != null) {
             var payload = {
       				"text": "Un utilisateur s'est ajouté à la waitinglist",
       				"attachments": [{
-      								"text": $emailInput.value,
+      								"title": email,
                       "fields": [
                         {
                             "title": "IP",
