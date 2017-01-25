@@ -159,6 +159,7 @@ UserInfo.getInfo(function(data) {
   // the "err" object contains useful information in case of an error
 });
 
+if(document.getElementById("particles-js")) {
 particlesJS("particles-js",
 {
   "particles": {
@@ -271,3 +272,4 @@ particlesJS("particles-js",
   "retina_detect": true
 }
 );
+}
