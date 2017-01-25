@@ -18,7 +18,7 @@ Intégrez cette nouvelle recrue.
 
 </div>
 
-<h3>Disponible* dans 73 jours</h3>
+<h3>Disponible quand les hirondelles reviennent*</h3>
 
 <p>En attendant restons en contact,</p>
 
