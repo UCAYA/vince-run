@@ -94,7 +94,7 @@ title: Bulle by Vince
   Prêt à Buller ? <br/>
   Mettez le temps de votre côté
 </h2>
-<img alt="" src="../assets/vectors/logo-vince.svg" />
+<a href="https://vince.run" title="Vince"><img alt="" src="../assets/vectors/logo-vince.svg" /><a/>
 <h3>Bientôt disponible</h3>
 <a href="{{ '/' | relative_url }}" class="button">Découvrir</a>
 </section>
