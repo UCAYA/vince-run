@@ -608,6 +608,8 @@ $bulle-content-max-width: 900px;
 
 #particles-js {
   position: fixed;
+	top: 0;
+	left: 0;
   width: 100vw;
   height: 100vh;
   background-color: transparent;
@@ -619,7 +621,7 @@ $bulle-content-max-width: 900px;
 }
 
 #bulle-presentation {
-	background: none;
+	//
 }
 
 #features {
@@ -629,5 +631,4 @@ $bulle-content-max-width: 900px;
 
 #vince-bulle {
   width: 100%;
-  background: linear-gradient(to top, #51002f, #8f3662);
 }
