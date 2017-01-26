@@ -632,3 +632,7 @@ $bulle-content-max-width: 900px;
 #vince-bulle {
   width: 100%;
 }
+#vince-bulle > * {
+  position: relative;
+	z-index: 20;
+}
